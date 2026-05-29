@@ -16,16 +16,16 @@ class Settings(BaseSettings):
     ADMIN_IDS: str
     ADMIN_CHAT_ID: str = ""
 
-    CHANNEL_ID: str
+    CHANNEL_ID: str = ""
     CHANNEL_CHAT_ID: str = ""
     CHANNEL_USERNAME: str = ""
-    REVIEWS_CHANNEL: str
+    REVIEWS_CHANNEL: str = ""
     PUBLIC_CHANNEL: str = ""
 
-    ADMIN_TG: str
-    DC_CITY_NUMBER: str
-    ALIF_NUMBER: str
-    MASTERCARD_NUMBER: str
+    ADMIN_TG: str = ""
+    DC_CITY_NUMBER: str = ""
+    ALIF_NUMBER: str = ""
+    MASTERCARD_NUMBER: str = ""
     MILLI_NUMBER: str = ""
 
     START_PHOTO_PATH: str = ""
