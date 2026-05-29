@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+*.db
+database/backups/
+.bot.lock
+node_modules/
+venv/
+.venv/
+webapp/gifts/dist/
+webapp/gifts/*.tsbuildinfo
